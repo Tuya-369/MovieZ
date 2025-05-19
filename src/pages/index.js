@@ -7,7 +7,12 @@ export default function Home() {
     <div>
       <Header />
       <CarouselItem />
-      <MovieCard />
+      <div className="grid grid-cols-2 gap-4 md:gap-4">
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+        <MovieCard />
+      </div>
     </div>
   );
 }
